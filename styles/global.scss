@@ -1,0 +1,11 @@
+@import './variables';
+@import './normalize';
+@import './mixins';
+@import './responsive';
+
+#eteration-body {
+  background-color: var(--body-color);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}

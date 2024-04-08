@@ -1,0 +1,40 @@
+.layout {
+  height: 100vh;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    margin: 16px 24px;
+  }
+
+  .logout {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 24px;
+  }
+
+  .site_layout {
+    .site_layout_header {
+      background: #fff;
+
+      .trigger {
+        padding: 0 24px;
+        font-size: 18px;
+        line-height: 64px;
+        cursor: pointer;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #1890ff;
+        }
+      }
+    }
+
+    .site_layout_content {
+      background: #fff;
+      margin: 24px 16px;
+      padding: 24;
+    }
+  }
+}

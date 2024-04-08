@@ -1,0 +1,17 @@
+.summaryContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    .summaryCard{
+        width: 100%;
+
+        .summaryLabel {
+            color: rgb(196, 47, 47);
+        }
+
+        span {
+            color:rgb(42, 163, 223)
+        }
+    }
+  }

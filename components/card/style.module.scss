@@ -1,0 +1,20 @@
+@import '../../styles/responsive';
+
+.cardContainer {
+  margin-bottom: 15px;
+
+  .label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: var(--label);
+    margin-bottom: 5px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+}
